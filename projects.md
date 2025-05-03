@@ -13,7 +13,7 @@ title: Projects
 - A Python-based tool that parses SSH logs to detect brute-force attacks, suspicious logins, and unauthorized access attempts. Helps sysadmins improve server security.
 #### Screenshoots from the project:
 <p float="left">
-  <img src="./Screenshot 2025-04-27 103431.png" alt="Mahmoud Mousa" width="600" hieght="500"/>
+  <img src="./Screenshot 2025-04-27 103431.png" alt="Mahmoud Mousa" width="600" hieght="700"/>
   <img src="./Screenshot 2025-04-24 170854.png" alt="Mahmoud Mousa" width="600"/>
 </p>
 
