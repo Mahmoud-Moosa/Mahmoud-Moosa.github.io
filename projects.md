@@ -3,7 +3,7 @@ layout: page
 title: Projects
 ---
 
-## 🔍 Cybersecurity Projects
+# 🔍 Cybersecurity Projects
 
 ## TryHackMe – Pre-Security & SOC Level 1
 - Completed structured learning paths covering core cybersecurity concepts
@@ -19,7 +19,7 @@ title: Projects
 
 <img src="./Screenshot 2025-04-24 170559.png" alt="Mahmoud Mousa" width="600">
 
-- Some code snippets screenshoots:
+### Some code snippets screenshoots:
 <p float="left">
   <img src="./Screenshot 2025-04-24 170947.png" alt="Mahmoud Mousa" width="600" height="400"/>
   <img src="./Screenshot 2025-04-27 103154.png" alt="Mahmoud Mousa" width="600" height="400"/>
