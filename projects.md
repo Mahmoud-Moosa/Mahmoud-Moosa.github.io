@@ -11,5 +11,6 @@ title: Projects
 
 ## Python SSH_Analyzer
 - A Python-based tool that parses SSH logs to detect brute-force attacks, suspicious logins, and unauthorized access attempts. Helps sysadmins improve server security.
-![My Profile Picture](./profile.jpg)
+<img src="./Screenshot 2025-04-24 170559.png" alt="Mahmoud Mousa" width="200">
+
 
