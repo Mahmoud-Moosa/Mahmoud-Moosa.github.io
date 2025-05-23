@@ -3,7 +3,8 @@ layout: page
 title: Projects
 ---
 
-# 🔍 Cybersecurity Projects
+<h2 align="center">🔍 Cybersecurity Projects 🔍</h2>
+
 ----------------------------------------------------------------------------
 ## TryHackMe – Pre-Security & SOC Level 1
 - Completed structured learning paths covering core cybersecurity concepts
@@ -36,14 +37,14 @@ title: Projects
   SOC Analyst Level 1 position. The lab involves setting up virtual machines, configuring a SIEM tool, simulating attacks, detecting threats, and documenting the 
   analysis.
 
-#### 2. Objectives
+<span style="color:red">**2. Objectives**</span>
   - Build a virtual SOC environment using VMware with Kali Linux and Ubuntu
   - Install and configure a SIEM tool
   - Simulate cyber attacks
   - Detect and analyze suspicious activities
   - Document incidents and map them to the MITRE ATT&CK framework
 
-#### 3. Tools & Technologies Used
+<span style="color:red">**3. Tools & Technologies Used**</span>
   - VMware Workstation
   - Kali Linux
   - Ubuntu Server
@@ -51,7 +52,7 @@ title: Projects
   - MITRE ATT&CK Framework
   - Wireshark, Sysmon, Log sources (Syslog, etc.)
 
-#### 4. Lab Setup
+<span style="color:red">**4. Lab Setup**</span>
 The lab was built using VMware Workstation with the following components:
   - Kali Linux: Used as the attacker machine to simulate cyber threats
   - Ubuntu Server: Configured with logging and monitored by the SIEM
