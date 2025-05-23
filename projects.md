@@ -6,12 +6,12 @@ title: Projects
 <h2 align="center">🔍 Cybersecurity Projects 🔍</h2>
 
 ----------------------------------------------------------------------------
-## TryHackMe – Pre-Security & SOC Level 1
+<h3>TryHackMe – Pre-Security & SOC Level 1</h3>
 - Completed structured learning paths covering core cybersecurity concepts
 - Earned certificates of completion
 
 ----------------------------------------------------------------------------
-## Python SSH_Analyzer
+<h3>Python SSH_Analyzer</h3>
 - A Python-based script that parses SSH logs to detect brute-force attacks, suspicious logins, and unauthorized access attempts.
   The script is integrated with a SIEM (Splunk), for easiar monitoring and detection.
 #### Screenshoots from the project:
@@ -31,7 +31,7 @@ title: Projects
 <img src="./Screenshot 2025-04-27 103219.png" alt="Mahmoud Mousa" width="600"/>
 
 ----------------------------------------------------------------------------
-## 🛡️ Home SOC Lab Project – Threat Detection & Analysis Simulation
+<h3>🛡️ Home SOC Lab Project – Threat Detection & Analysis Simulation</h3>
 <span style="color:red">**1. Introduction**</span>
 - This project simulates a Security Operations Center (SOC) environment in a home lab setting. It was created to develop and demonstrate key skills required for a 
   SOC Analyst Level 1 position. The lab involves setting up virtual machines, configuring a SIEM tool, simulating attacks, detecting threats, and documenting the 
