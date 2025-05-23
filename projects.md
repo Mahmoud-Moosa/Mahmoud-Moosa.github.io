@@ -60,8 +60,8 @@ The lab was built using VMware Workstation with the following components:
 
 #### Screenshoots from the project 📷
 <p float="left">
- <img src="./P2 photo.png" alt="Mahmoud Mousa" width="600" height="400"/>
- <img src="./p2 pic.png" alt="Mahmoud Mousa" width="600" height="400"/>
+ <img src="./kali.png" alt="Mahmoud Mousa" width="600" height="400"/>
+ <img src="./ubuntu.png" alt="Mahmoud Mousa" width="600" height="400"/>
  </p>
 
 <p float="left">
