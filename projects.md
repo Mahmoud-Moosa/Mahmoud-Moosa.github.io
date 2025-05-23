@@ -35,12 +35,14 @@ title: Projects
 - This project simulates a Security Operations Center (SOC) environment in a home lab setting. It was created to develop and demonstrate key skills required for a 
   SOC Analyst Level 1 position. The lab involves setting up virtual machines, configuring a SIEM tool, simulating attacks, detecting threats, and documenting the 
   analysis.
+
 #### 2. Objectives
   - Build a virtual SOC environment using VMware with Kali Linux and Ubuntu
   - Install and configure a SIEM tool
   - Simulate cyber attacks
   - Detect and analyze suspicious activities
   - Document incidents and map them to the MITRE ATT&CK framework
+
 #### 3. Tools & Technologies Used
   - VMware Workstation
   - Kali Linux
@@ -48,6 +50,7 @@ title: Projects
   - SIEM Tool (e.g., Wazuh or Splunk)
   - MITRE ATT&CK Framework
   - Wireshark, Sysmon, Log sources (Syslog, etc.)
+
 #### 4. Lab Setup
 The lab was built using VMware Workstation with the following components:
   - Kali Linux: Used as the attacker machine to simulate cyber threats
