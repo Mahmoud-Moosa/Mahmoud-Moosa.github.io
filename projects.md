@@ -1,7 +1,3 @@
----
-layout: page
-title: Projects
----
 
 <h2 align="center">🔍 Cybersecurity Projects 🔍</h2>
 
