@@ -59,5 +59,12 @@ The lab was built using VMware Workstation with the following components:
   - SIEM Tool: Installed to collect, analyze, and alert on security logs
 
 #### Screenshoots from the project 📷
+<p float="left">
+ <img src="./P2 photo.png" alt="Mahmoud Mousa" width="600" height="400"/>
+ <img src="./p2 pic.png" alt="Mahmoud Mousa" width="600" height="400"/>
+ </p>
 
-
+<p float="left">
+ <img src="./pc pict.png" alt="Mahmoud Mousa" width="600" height="400"/>
+ <img src="./P2.png" alt="Mahmoud Mousa" width="600" height="400"/>
+</p>
