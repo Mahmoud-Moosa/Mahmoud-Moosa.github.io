@@ -31,7 +31,7 @@ title: Projects
 
 ----------------------------------------------------------------------------
 ## 🛡️ Home SOC Lab Project – Threat Detection & Analysis Simulation
-#### 1. Introduction
+<span style="color:red">**1. Introduction**</span>
 - This project simulates a Security Operations Center (SOC) environment in a home lab setting. It was created to develop and demonstrate key skills required for a 
   SOC Analyst Level 1 position. The lab involves setting up virtual machines, configuring a SIEM tool, simulating attacks, detecting threats, and documenting the 
   analysis.
