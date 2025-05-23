@@ -36,23 +36,23 @@ title: Projects
   SOC Analyst Level 1 position. The lab involves setting up virtual machines, configuring a SIEM tool, simulating attacks, detecting threats, and documenting the 
   analysis.
 #### 2. Objectives
-- Build a virtual SOC environment using VMware with Kali Linux and Ubuntu
-- Install and configure a SIEM tool
-- Simulate cyber attacks
-- Detect and analyze suspicious activities
-- Document incidents and map them to the MITRE ATT&CK framework
+  - Build a virtual SOC environment using VMware with Kali Linux and Ubuntu
+  - Install and configure a SIEM tool
+  - Simulate cyber attacks
+  - Detect and analyze suspicious activities
+  - Document incidents and map them to the MITRE ATT&CK framework
 #### 3. Tools & Technologies Used
-- VMware Workstation
-- Kali Linux
-- Ubuntu Server
-- SIEM Tool (e.g., Wazuh or Splunk)
-- MITRE ATT&CK Framework
-- Wireshark, Sysmon, Log sources (Syslog, etc.)
+  - VMware Workstation
+  - Kali Linux
+  - Ubuntu Server
+  - SIEM Tool (e.g., Wazuh or Splunk)
+  - MITRE ATT&CK Framework
+  - Wireshark, Sysmon, Log sources (Syslog, etc.)
 #### 4. Lab Setup
 The lab was built using VMware Workstation with the following components:
-- Kali Linux: Used as the attacker machine to simulate cyber threats
-- Ubuntu Server: Configured with logging and monitored by the SIEM
-- SIEM Tool: Installed to collect, analyze, and alert on security logs
+  - Kali Linux: Used as the attacker machine to simulate cyber threats
+  - Ubuntu Server: Configured with logging and monitored by the SIEM
+  - SIEM Tool: Installed to collect, analyze, and alert on security logs
 
 #### Screenshoots from the project 📷
 
