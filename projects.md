@@ -6,12 +6,12 @@ title: Projects
 <h2 align="center">🔍 Cybersecurity Projects 🔍</h2>
 
 ----------------------------------------------------------------------------
-<h3>TryHackMe – Pre-Security & SOC Level 1</h3>
+<h3>💻 TryHackMe – Pre-Security & SOC Level 1 </h3>
 - Completed structured learning paths covering core cybersecurity concepts
 - Earned certificates of completion
 
 ----------------------------------------------------------------------------
-<h3>Python SSH_Analyzer</h3>
+<h3>🐍 Python SSH_Analyzer </h3>
 - A Python-based script that parses SSH logs to detect brute-force attacks, suspicious logins, and unauthorized access attempts.
   The script is integrated with a SIEM (Splunk), for easiar monitoring and detection.
 #### Screenshoots from the project:
@@ -47,12 +47,11 @@ title: Projects
 <span style="color:red">**3. Tools & Technologies Used**</span>
   - VMware Workstation
   - Kali Linux
-  - Ubuntu Server
-  - SIEM Tool (e.g., Wazuh or Splunk)
-  - MITRE ATT&CK Framework
-  - Wireshark, Sysmon, Log sources (Syslog, etc.)
+  - Ubuntu
+  - SIEM Tool (elastic)
 
 <span style="color:red">**4. Lab Setup**</span>
+
 The lab was built using VMware Workstation with the following components:
   - Kali Linux: Used as the attacker machine to simulate cyber threats
   - Ubuntu Server: Configured with logging and monitored by the SIEM
