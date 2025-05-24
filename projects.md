@@ -11,20 +11,20 @@
 - A Python-based script that parses SSH logs to detect brute-force attacks, suspicious logins, and unauthorized access attempts.
   The script is integrated with a SIEM (Splunk), for easiar monitoring and detection.
 #### Screenshoots from the project:
-<p float="left">
-  <img src="./Screenshot 2025-04-27 103431.png" alt="Mahmoud Mousa" width="600" height="400"/>
-  <img src="./Screenshot 2025-04-24 170854.png" alt="Mahmoud Mousa" width="600" height="400"/>
+<p>
+  <img src="./Screenshot 2025-04-27 103431.png" alt="Mahmoud Mousa"/>
+  <img src="./Screenshot 2025-04-24 170854.png" alt="Mahmoud Mousa"/>
 </p>
 
-<img src="./Screenshot 2025-04-24 170559.png" alt="Mahmoud Mousa" width="600">
+<img src="./Screenshot 2025-04-24 170559.png" alt="Mahmoud Mousa">
 
 ### Some code snippets screenshoots:
-<p float="left">
-  <img src="./Screenshot 2025-04-24 170947.png" alt="Mahmoud Mousa" width="600" height="400"/>
-  <img src="./Screenshot 2025-04-27 103154.png" alt="Mahmoud Mousa" width="600" height="400"/>
+<p>
+  <img src="./Screenshot 2025-04-24 170947.png" alt="Mahmoud Mousa"/>
+  <img src="./Screenshot 2025-04-27 103154.png" alt="Mahmoud Mousa"/>
 </p>
 
-<img src="./Screenshot 2025-04-27 103219.png" alt="Mahmoud Mousa" width="600"/>
+<img src="./Screenshot 2025-04-27 103219.png" alt="Mahmoud Mousa"/>
 
 ----------------------------------------------------------------------------
 <h3>🛡️ Home SOC Lab Project – Threat Detection & Analysis Simulation</h3>
@@ -54,12 +54,12 @@ The lab was built using VMware Workstation with the following components:
   - SIEM Tool: Installed to collect, analyze, and alert on security logs
 
 #### Screenshoots from the project 📷
-<p float="left">
- <img src="./kali.png" alt="Mahmoud Mousa" width="600" height="400"/>
- <img src="./ubuntu.png" alt="Mahmoud Mousa" width="600" height="400"/>
+<p>
+ <img src="./kali.png" alt="Mahmoud Mousa"/>
+ <img src="./ubuntu.png" alt="Mahmoud Mousa"/>
  </p>
 
-<p float="left">
- <img src="./pc pict.png" alt="Mahmoud Mousa" width="600" height="400"/>
- <img src="./P2.png" alt="Mahmoud Mousa" width="600" height="400"/>
+<p>
+ <img src="./pc pict.png" alt="Mahmoud Mousa"/>
+ <img src="./P2.png" alt="Mahmoud Mousa"/>
 </p>
