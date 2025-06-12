@@ -1,0 +1,269 @@
+<div class="cybersecurity-projects">
+  <h2 class="section-title">🔍 Cybersecurity Projects</h2>
+  
+  <div class="project-card">
+    <div class="project-header">
+      <h3>💻 TryHackMe – Pre-Security & SOC Level 1</h3>
+      <span class="badge">Completed</span>
+    </div>
+    <div class="project-content">
+      <ul class="achievements">
+        <li>Completed structured learning paths covering core cybersecurity concepts</li>
+        <li>Earned certificates of completion</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <div class="project-header">
+      <h3>🐍 Python SSH_Analyzer</h3>
+      <span class="badge">Security Tool</span>
+    </div>
+    <div class="project-content">
+      <p>A Python-based script that parses SSH logs to detect:</p>
+      <ul class="features">
+        <li>Brute-force attacks</li>
+        <li>Suspicious logins</li>
+        <li>Unauthorized access attempts</li>
+      </ul>
+      <p class="integration">Integrated with Splunk SIEM for enhanced monitoring and detection capabilities.</p>
+      
+      <div class="gallery">
+        <h4>Project Screenshots</h4>
+        <div class="image-grid">
+          <img src="./Screenshot 2025-04-27 103431.png" alt="SSH Analyzer Output">
+          <img src="./Screenshot 2025-04-24 170854.png" alt="SSH Analyzer Interface">
+          <img src="./Screenshot 2025-04-24 170559.png" alt="SSH Analyzer Detection">
+        </div>
+        
+        <h4>Code Snippets</h4>
+        <div class="image-grid">
+          <img src="./Screenshot 2025-04-24 170947.png" alt="Code Implementation">
+          <img src="./Screenshot 2025-04-27 103154.png" alt="Log Parsing Logic">
+          <img src="./Screenshot 2025-04-27 103219.png" alt="Detection Algorithms">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <div class="project-header">
+      <h3>🛡️ Home SOC Lab Project</h3>
+      <span class="badge">Threat Detection & Analysis Simulation</span>
+    </div>
+    <div class="project-content">
+      <div class="project-section">
+        <h4 class="section-title">Introduction</h4>
+        <p>This project simulates a Security Operations Center (SOC) environment in a home lab setting, created to develop and demonstrate key skills required for a SOC Analyst Level 1 position.</p>
+      </div>
+      
+      <div class="project-section">
+        <h4 class="section-title">Objectives</h4>
+        <ul class="objectives">
+          <li>Build a virtual SOC environment using VMware with Kali Linux and Ubuntu</li>
+          <li>Install and configure a SIEM tool</li>
+          <li>Simulate cyber attacks</li>
+          <li>Detect and analyze suspicious activities</li>
+          <li>Document incidents and map them to the MITRE ATT&CK framework</li>
+        </ul>
+      </div>
+      
+      <div class="project-section">
+        <h4 class="section-title">Tools & Technologies</h4>
+        <div class="tech-stack">
+          <span class="tech-item">VMware Workstation</span>
+          <span class="tech-item">Kali Linux</span>
+          <span class="tech-item">Ubuntu Server</span>
+          <span class="tech-item">Elastic SIEM</span>
+        </div>
+      </div>
+      
+      <div class="project-section">
+        <h4 class="section-title">Lab Architecture</h4>
+        <p>The lab was built using VMware Workstation with the following components:</p>
+        <ul class="architecture">
+          <li><strong>Kali Linux:</strong> Attacker machine for threat simulation</li>
+          <li><strong>Ubuntu Server:</strong> Configured with logging and monitored by the SIEM</li>
+          <li><strong>SIEM Tool:</strong> Collects, analyzes, and alerts on security logs</li>
+        </ul>
+      </div>
+      
+      <div class="gallery">
+        <h4>Lab Screenshots</h4>
+        <div class="image-grid">
+          <img src="./kali.png" alt="Kali Linux Setup">
+          <img src="./ubuntu.png" alt="Ubuntu Server Configuration">
+          <img src="./pc pict.png" alt="Lab Overview">
+          <img src="./P2.png" alt="SIEM Dashboard">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .cybersecurity-projects {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+  }
+  
+  .section-title {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    position: relative;
+  }
+  
+  .section-title:after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #e74c3c;
+    margin: 0.5rem auto;
+  }
+  
+  .project-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-header {
+    background: #2c3e50;
+    color: white;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .project-header h3 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .badge {
+    background: #e74c3c;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+  
+  .project-content {
+    padding: 1.5rem;
+  }
+  
+  .project-section {
+    margin-bottom: 1.5rem;
+  }
+  
+  .project-section h4 {
+    color: #2c3e50;
+    margin-bottom: 0.8rem;
+    font-size: 1.2rem;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.3rem;
+    display: inline-block;
+  }
+  
+  ul.features, ul.objectives, ul.architecture {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  ul.features li, ul.objectives li, ul.architecture li {
+    padding: 0.5rem 0;
+    position: relative;
+    padding-left: 1.5rem;
+  }
+  
+  ul.features li:before, ul.objectives li:before {
+    content: '•';
+    color: #e74c3c;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+  }
+  
+  ul.architecture li:before {
+    content: '🖥️';
+    position: absolute;
+    left: 0;
+  }
+  
+  .tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .tech-item {
+    background: #3498db;
+    color: white;
+    padding: 0.3rem 0.8rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+  }
+  
+  .gallery {
+    margin-top: 2rem;
+  }
+  
+  .gallery h4 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+  }
+  
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .image-grid img {
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .image-grid img:hover {
+    transform: scale(1.02);
+  }
+  
+  .integration {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-left: 4px solid #3498db;
+    font-style: italic;
+    margin: 1rem 0;
+  }
+  
+  @media (max-width: 768px) {
+    .project-header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.5rem;
+    }
+    
+    .image-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
