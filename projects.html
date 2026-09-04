@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Case Files — Mahmoud Mousa</title>
+<meta name="description" content="Cybersecurity projects by Mahmoud Mousa: a home SOC lab, a Python SSH log analyzer, and TryHackMe learning paths.">
+<meta name="theme-color" content="#0b1418">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22><rect width=%2232%22 height=%2232%22 rx=%226%22 fill=%22%230b1418%22/><text x=%2216%22 y=%2222%22 font-family=%22monospace%22 font-size=%2216%22 fill=%22%2345d9c0%22 text-anchor=%22middle%22>&gt;_</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand"><span class="dot"></span>mahmoud@portfolio</a>
+    <button class="nav-toggle" aria-label="Toggle menu"><i class="fas fa-bars"></i></button>
+    <ul class="nav-links">
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#skills">Skills</a></li>
+      <li><a href="projects.html" class="current">Case Files</a></li>
+      <li><a href="https://medium.com/@mahmoudmoosa200" target="_blank" rel="noopener">Writeups</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<section class="section" style="border-top:none; padding-top:48px;">
+  <div class="wrap">
+    <a href="index.html" class="back-link"><i class="fas fa-arrow-left"></i> Back to portfolio</a>
+    <div class="section-head">
+      <p class="section-tag">case files</p>
+      <h2>Projects</h2>
+    </div>
+
+    <!-- Case 1 -->
+    <div class="case">
+      <div class="case-head">
+        <h3>TryHackMe — Labs, Rooms & Challenges</h3>
+        <span class="status status-done">completed</span>
+      </div>
+      <div class="case-body">
+        <p>Structured learning paths covering core cybersecurity concepts, worked hands-on through TryHackMe's rooms and challenges.</p>
+        <div class="field">
+          <ul>
+            <li>Completed structured learning paths covering core cybersecurity concepts</li>
+            <li>Earned certificates of completion, including SOC Level 1</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Case 2 -->
+    <div class="case">
+      <div class="case-head">
+        <h3>SSH Analyzer</h3>
+        <span class="status status-tool">security tool · Python</span>
+      </div>
+      <div class="case-body">
+        <p>A Python script that parses SSH logs to flag suspicious activity, built to plug into a SIEM for ongoing monitoring.</p>
+        <div class="field">
+          <p class="field-label">detects</p>
+          <ul>
+            <li>Brute-force attacks</li>
+            <li>Suspicious logins</li>
+            <li>Unauthorized access attempts</li>
+          </ul>
+        </div>
+        <div class="field">
+          <p class="field-label">integration</p>
+          <ul><li>Feeds into Splunk SIEM for enhanced monitoring and detection</li></ul>
+        </div>
+        <p class="gallery-label">output & interface</p>
+        <div class="gallery">
+          <img src="assets/img/ssh-analyzer-output.png" alt="SSH Analyzer output">
+          <img src="assets/img/ssh-analyzer-interface.png" alt="SSH Analyzer interface">
+          <img src="assets/img/ssh-analyzer-detection.png" alt="SSH Analyzer detection in action">
+        </div>
+        <p class="gallery-label">code</p>
+        <div class="gallery">
+          <img src="assets/img/ssh-analyzer-code.png" alt="SSH Analyzer implementation">
+          <img src="assets/img/ssh-analyzer-logic.png" alt="SSH Analyzer log parsing logic">
+          <img src="assets/img/ssh-analyzer-algorithms.png" alt="SSH Analyzer detection algorithms">
+        </div>
+      </div>
+    </div>
+
+    <!-- Case 3 -->
+    <div class="case">
+      <div class="case-head">
+        <h3>Home SOC Lab</h3>
+        <span class="status status-lab">threat detection simulation</span>
+      </div>
+      <div class="case-body">
+        <div class="field">
+          <p class="field-label">introduction</p>
+          <p>A simulated Security Operations Center built in a home lab, created to develop and demonstrate the skills a SOC Analyst Level 1 role needs day to day.</p>
+        </div>
+        <div class="field">
+          <p class="field-label">objectives</p>
+          <ul>
+            <li>Build a virtual SOC environment using VMware with Kali Linux and Ubuntu</li>
+            <li>Install and configure a SIEM tool</li>
+            <li>Simulate cyber attacks</li>
+            <li>Detect and analyze suspicious activity</li>
+            <li>Document incidents and map them to the MITRE ATT&amp;CK framework</li>
+          </ul>
+        </div>
+        <div class="field">
+          <p class="field-label">tools & technologies</p>
+          <div class="tag-row">
+            <span class="tag">VMware Workstation</span>
+            <span class="tag">Kali Linux</span>
+            <span class="tag">Ubuntu Server</span>
+            <span class="tag">Elastic SIEM</span>
+          </div>
+        </div>
+        <div class="field">
+          <p class="field-label">lab architecture</p>
+          <ul>
+            <li><strong>Kali Linux</strong> — attacker machine for threat simulation</li>
+            <li><strong>Ubuntu Server</strong> — configured with logging, monitored by the SIEM</li>
+            <li><strong>SIEM tool</strong> — collects, analyzes, and alerts on security logs</li>
+          </ul>
+        </div>
+        <p class="gallery-label">lab screenshots</p>
+        <div class="gallery">
+          <img src="assets/img/soc-lab-kali.png" alt="Kali Linux setup">
+          <img src="assets/img/soc-lab-ubuntu.png" alt="Ubuntu Server configuration">
+          <img src="assets/img/soc-lab-overview.png" alt="Lab overview">
+          <img src="assets/img/soc-lab-dashboard.png" alt="SIEM dashboard">
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; 2026 Mahmoud Mousa</p>
+    <p>built &amp; deployed via GitHub Pages</p>
+  </div>
+</footer>
+
+<div class="lightbox"><img src="" alt=""></div>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
